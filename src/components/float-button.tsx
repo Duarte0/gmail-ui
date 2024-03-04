@@ -7,13 +7,14 @@ export function FloatButton(){
         <TouchableOpacity 
         style={{
             backgroundColor: colors.gray[600], 
-            padding: 13, 
+            padding: 12, 
             borderRadius: 50, 
             position: 'absolute',
             bottom: 10,
             right: 4,
             flexDirection: 'row',
-            justifyContent: 'center'
+            justifyContent: 'center',
+            marginRight: 5,
           }}
         activeOpacity={0.7}
         >
